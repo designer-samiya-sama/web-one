@@ -1,0 +1,551 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.navbar-brand img {
+    height: 55px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand h3 {
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    font-weight: 600;
+}
+
+/* image link */
+.content-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.banner {
+    background: linear-gradient(#00000093, #000000a1),
+        url(./image/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    padding: 140px 0;
+}
+
+.content h6 {
+    font-weight: 700;
+}
+
+.content h1 {
+    font-size: 46px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.content p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.buttons button {
+    padding: 14px 35px;
+    font-weight: 600;
+    border: 2px solid white;
+    background: white;
+    margin-right: 15px;
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+}
+
+.buttons button:hover {
+    background: none;
+    color: white;
+}
+
+.other-btn {
+    padding: 14px 35px;
+    font-weight: 600;
+    border: 2px solid #ffffff48 !important;
+    background: none !important;
+    color: white;
+    margin-right: 15px;
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+}
+
+.other-btn:hover {
+    background: white !important;
+    color: #000000 !important;
+}
+
+
+/* core-feature */
+.core-feature {
+    padding: 110px 0;
+    background: #dcdcdc;
+}
+
+.feature-img img {
+    border-radius: 10px;
+    height: 90vh;
+}
+
+/* content */
+
+.features-content h6 {
+    color: #525252;
+    font-weight: 600;
+}
+
+.features-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 6px 0;
+}
+
+.features-content p {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.features-content button {
+    padding: 14px 35px;
+    font-weight: 600;
+    border: 2px solid white;
+    background: white;
+    margin-right: 15px;
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+    margin-top: 15px;
+}
+
+/* core img */
+.core-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.core-img img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+
+/* app download */
+
+.app-download{
+    padding: 50px !important;
+    background: white;
+    border-radius: 10px;
+    margin-top: 70px;
+    height: 54vh;
+}
+
+.app-image{ 
+    text-align: end;
+
+}
+
+.app-image img{
+
+    width: 60%;
+    height: 70vh;
+    object-fit: cover;
+    /* position  */
+    position: relative;
+    bottom: 147px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* our goal css */
+
+.our-goal h3{
+    font-weight: 600;
+}
+
+.our-goal p{
+    font-weight: 500;
+    padding: 10px 0;
+    color: gray ;
+}
+
+/* service css */
+
+.service ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service li img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin-right: 6px;
+}
+
+
+/* core features */
+.core-feature-item{
+    background: #dcdcdc;
+    padding: 100px 0;
+
+}
+
+.core-feature-item h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.features img{
+    width: 100%;
+    height: 250px !important;
+    object-fit: cover;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.features{
+    background: white;
+    border-radius: 0px 0px 6px 6px;
+}
+.features h3{
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    margin-top: 20px;
+}
+.features h2{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+.features a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 30px !important;
+    display: block;
+    font-size: 12px;
+}
+
+/* Carrier section */
+.career-section {
+    background: black;
+    padding: 100px 0;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+}
+
+.settings img{
+    width: 30px;
+}
+.settings p{
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.development{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #a1a1a1;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.development img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+
+/* Team section css */
+.team-section{
+    background: #dcdcdc;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.team img{
+
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.team {
+    background: white;
+    padding:50px 20px;
+    border-radius: 10px;
+}
+
+.team h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.team h6{
+    color: gray;
+}
+
+.team-social a img{
+
+    width: 20px;
+    height: 20px;
+}
+
+.team-social{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Team section */
+
+.team-section h5{
+    color: gray;
+}
+
+.team-section h1{
+    font-size: 55px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+
+.preview-section{
+    padding: 60px 0;
+}
+
+.preview-section img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* other banner */
+.other-banner{
+    background: #dcdcdc;
+    padding-bottom: 100px;
+
+}
+.state img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* shedual */
+.shedual {
+    background: white;
+    padding: 40px;
+    margin: 0 40px !important;
+    border-radius: 10px;
+    position: relative;
+     bottom: 70px;
+}
+.shedual-content h6{
+    color: #9c9898;
+}
+.shedual-content h5{
+ font-size: 18px;
+ font-weight: 600;
+}
+.preview button {
+    padding: 14px 35px;
+    font-weight: 600;
+    border: 2px solid rgb(15, 15, 15) !important ;
+    background: rgb(10, 10, 10) !important;
+    color: rgb(255, 252, 252) !important;
+    margin-right: 15px;
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+}
+
+/* review-section */
+.review-section {
+    background: black;
+    padding: 100px 0;
+}
+.review-section h6{
+    color: rgb(145, 138, 138);
+    font-weight: 600;
+}
+.review-section h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+/* main-review */
+.main-review {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    color: black;
+}
+.main-review p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* about img */
+.about-img img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.about-programmer{
+    display: flex;
+    align-items: center;
+}
+
+.about-name{
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.about-name h4{
+    font-weight: 600;
+}
+.about-name p{
+    color: gray;
+}
+
+
+/* video banner */
+
+.video {
+    background: 
+    linear-gradient(#00000093, #000000a1),
+    url(./image/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    /*delete padding */
+    /* new css */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.video img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.video-section{
+    padding: 100px 0;
+    background: #a0d0e390;
+}
+
+.video-section h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/*form section */
+.form-section{
+    padding: 100px 0;
+}
+
+.contact{
+    background: #a0d0e390;
+    padding: 50px !important;
+    border-radius: 10px;
+}
+.contact h6{
+    color: gray;
+}
+
+.contact h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.contact-input{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact-input input{
+    width: 100%;
+    padding: 15px ;
+    border: none;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.contact textarea{
+    width: 100%;
+    padding: 15px ;
+    border: none;
+    border-radius: 6px;
+    margin-right: 10px !important;
+    /*new css  */
+    margin-top: 15px !important;
+}
+
+
+.contact button{
+    padding: 14px 35px;
+    font-weight: 600;
+    border: 2px solid rgb(15, 15, 15) !important ;
+    background: rgb(10, 10, 10) !important;
+    color: rgb(255, 252, 252) !important;
+    margin-right: 15px;
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+    margin-top: 15px;
+}
+/* footer */
+.footer {
+    padding: 20px;
+    background: black;
+    color: white;
+    text-align: center;
+}
